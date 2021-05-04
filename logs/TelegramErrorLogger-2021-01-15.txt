@@ -1,0 +1,58 @@
+============[Date]============
+[ 2021-01-15 11:03:39  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.chat_id= 
+ref.text= <b>📊 Статистика проекта</b>
+
+👤 Пользователей: <b>669</b>
+🧿 Пользователей online: <b>126</b>
+👥 Новых пользователей: <b>0</b>
+
+📆 Бот работает: <b>121</b> дня(ей)
+ref.reply_markup= {"keyboard":[[{"text":"","request_contact":false,"request_location":false}],[{"text":"","request_contact":false,"request_location":false}],[{"text":"","request_contact":false,"request_location":false}],[{"text":"","request_contact":false,"request_location":false}]],"one_time_keyboard":false,"resize_keyboard":true,"selective":true}
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Modules/Messages/Messages.php(57): Telegram->sendMessage(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/Statistic.php(20): Messages->replyHTML('<b>\xF0\x9F\x93\x8A \xD0\xA1\xD1\x82\xD0\xB0\xD1...', '{"keyboard":[[{...')
+#5 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(163): require_once('/home/a0505508/...')
+#6 {main}
+
+============[Date]============
+[ 2021-01-15 11:06:29  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.chat_id= 
+ref.text= <b>📊 Статистика проекта</b>
+
+👤 Пользователей: <b>669</b>
+🧿 Пользователей online: <b>126</b>
+👥 Новых пользователей: <b>0</b>
+
+📆 Бот работает: <b>121</b> дня(ей)
+ref.reply_markup= {"keyboard":[[{"text":"","request_contact":false,"request_location":false}],[{"text":"","request_contact":false,"request_location":false}],[{"text":"","request_contact":false,"request_location":false}],[{"text":"","request_contact":false,"request_location":false}]],"one_time_keyboard":false,"resize_keyboard":true,"selective":true}
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Modules/Messages/Messages.php(57): Telegram->sendMessage(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/Statistic.php(20): Messages->replyHTML('<b>\xF0\x9F\x93\x8A \xD0\xA1\xD1\x82\xD0\xB0\xD1...', '{"keyboard":[[{...')
+#5 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(163): require_once('/home/a0505508/...')
+#6 {main}
+

@@ -1,0 +1,3084 @@
+============[Date]============
+[ 2021-05-02 05:09:24  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056190
+ref.message.message_id= 16
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619921364
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 0 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 05:09:31  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056191
+ref.message.message_id= 17
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619921371
+ref.message.text= 👧 Найти девушку
+
+
+[ref]
+ref.user_id= 310642607
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/SearchGirl.php(4): Telegram->getChatMember(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(167): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 05:09:41  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056194
+ref.message.message_id= 23
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619921381
+ref.message.text= 👦 Найти парня
+
+
+[ref]
+ref.user_id= 310642607
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/SearchBoy.php(5): Telegram->getChatMember(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(166): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 05:09:45  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056196
+ref.message.message_id= 27
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619921385
+ref.message.text= 👧 Найти девушку
+
+
+[ref]
+ref.user_id= 310642607
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/SearchGirl.php(4): Telegram->getChatMember(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(167): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 05:09:53  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056200
+ref.message.message_id= 35
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619921392
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 0 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 05:10:02  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056201
+ref.message.message_id= 36
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619921401
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 0 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 05:14:37  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056202
+ref.message.message_id= 37
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619921677
+ref.message.text= 👦 Найти парня
+
+
+[ref]
+ref.user_id= 310642607
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/SearchBoy.php(5): Telegram->getChatMember(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(166): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 05:55:28  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056226
+ref.message.message_id= 64
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619924128
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 0 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 05:55:45  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056230
+ref.message.message_id= 67
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619924145
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 0 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 05:56:00  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056232
+ref.message.message_id= 70
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619924159
+ref.message.text= 👧 Найти девушку
+
+
+[ref]
+ref.user_id= 310642607
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/SearchGirl.php(4): Telegram->getChatMember(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(167): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 05:57:18  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056234
+ref.message.message_id= 74
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619924238
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 0 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 06:03:33  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056241
+ref.message.message_id= 86
+ref.message.from.id= 400657466
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Kyivstar
+ref.message.from.username= phpprogramist
+ref.message.from.language_code= ru
+ref.message.chat.id= 400657466
+ref.message.chat.first_name= Алексей Kyivstar
+ref.message.chat.username= phpprogramist
+ref.message.chat.type= private
+ref.message.date= 1619924613
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=400657466">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Мужской
+<b>🧔 Возраст:</b> 35
+<b>👤 UserName: </b> @phpprogramist
+<b>🌟 Рейтинг: </b> 0 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 06:03:48  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056243
+ref.message.message_id= 89
+ref.message.from.id= 400657466
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Kyivstar
+ref.message.from.username= phpprogramist
+ref.message.from.language_code= ru
+ref.message.chat.id= 400657466
+ref.message.chat.first_name= Алексей Kyivstar
+ref.message.chat.username= phpprogramist
+ref.message.chat.type= private
+ref.message.date= 1619924627
+ref.message.text= 👦 Найти парня
+
+
+[ref]
+ref.user_id= 400657466
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/SearchBoy.php(5): Telegram->getChatMember(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(166): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 06:04:30  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056244
+ref.message.message_id= 91
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619924670
+ref.message.text= 👦 Найти парня
+
+
+[ref]
+ref.user_id= 310642607
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/SearchBoy.php(5): Telegram->getChatMember(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(166): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 06:14:10  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056250
+ref.message.message_id= 101
+ref.message.from.id= 400657466
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Kyivstar
+ref.message.from.username= phpprogramist
+ref.message.from.language_code= ru
+ref.message.chat.id= 400657466
+ref.message.chat.first_name= Алексей Kyivstar
+ref.message.chat.username= phpprogramist
+ref.message.chat.type= private
+ref.message.date= 1619925250
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=400657466">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Мужской
+<b>🧔 Возраст:</b> 35
+<b>👤 UserName: </b> @phpprogramist
+<b>🌟 Рейтинг: </b> 0 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 06:14:31  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056252
+ref.message.message_id= 104
+ref.message.from.id= 400657466
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Kyivstar
+ref.message.from.username= phpprogramist
+ref.message.from.language_code= ru
+ref.message.chat.id= 400657466
+ref.message.chat.first_name= Алексей Kyivstar
+ref.message.chat.username= phpprogramist
+ref.message.chat.type= private
+ref.message.date= 1619925270
+ref.message.text= 👦 Найти парня
+
+
+[ref]
+ref.user_id= 400657466
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/SearchBoy.php(5): Telegram->getChatMember(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(166): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 06:14:40  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056255
+ref.message.message_id= 110
+ref.message.from.id= 400657466
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Kyivstar
+ref.message.from.username= phpprogramist
+ref.message.from.language_code= ru
+ref.message.chat.id= 400657466
+ref.message.chat.first_name= Алексей Kyivstar
+ref.message.chat.username= phpprogramist
+ref.message.chat.type= private
+ref.message.date= 1619925280
+ref.message.text= 👧 Найти девушку
+
+
+[ref]
+ref.user_id= 400657466
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/SearchGirl.php(4): Telegram->getChatMember(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(167): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 06:16:33  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056263
+ref.message.message_id= 128
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619925393
+ref.message.text= 👥 Отправить свою анкету
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 0 из 5
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/DeAnon.php(33): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(176): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 06:16:34  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056263
+ref.message.message_id= 128
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619925393
+ref.message.text= 👥 Отправить свою анкету
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=400657466">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Мужской
+<b>🧔 Возраст:</b> 35
+<b>👤 UserName: </b> @phpprogramist
+<b>🌟 Рейтинг: </b> 0 из 5
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/DeAnon.php(54): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(176): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 06:17:25  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056272
+ref.message.message_id= 146
+ref.message.from.id= 400657466
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Kyivstar
+ref.message.from.username= phpprogramist
+ref.message.from.language_code= ru
+ref.message.chat.id= 400657466
+ref.message.chat.first_name= Алексей Kyivstar
+ref.message.chat.username= phpprogramist
+ref.message.chat.type= private
+ref.message.date= 1619925444
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=400657466">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Мужской
+<b>🧔 Возраст:</b> 35
+<b>👤 UserName: </b> @phpprogramist
+<b>🌟 Рейтинг: </b> 0 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 06:17:31  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056274
+ref.message.message_id= 149
+ref.message.from.id= 400657466
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Kyivstar
+ref.message.from.username= phpprogramist
+ref.message.from.language_code= ru
+ref.message.chat.id= 400657466
+ref.message.chat.first_name= Алексей Kyivstar
+ref.message.chat.username= phpprogramist
+ref.message.chat.type= private
+ref.message.date= 1619925450
+ref.message.text= 👧 Найти девушку
+
+
+[ref]
+ref.user_id= 400657466
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/SearchGirl.php(4): Telegram->getChatMember(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(167): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 06:17:38  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056276
+ref.message.message_id= 153
+ref.message.from.id= 400657466
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Kyivstar
+ref.message.from.username= phpprogramist
+ref.message.from.language_code= ru
+ref.message.chat.id= 400657466
+ref.message.chat.first_name= Алексей Kyivstar
+ref.message.chat.username= phpprogramist
+ref.message.chat.type= private
+ref.message.date= 1619925457
+ref.message.text= 👦 Найти парня
+
+
+[ref]
+ref.user_id= 400657466
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/SearchBoy.php(5): Telegram->getChatMember(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(166): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 06:19:38  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056286
+ref.message.message_id= 174
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619925577
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 06:19:42  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056287
+ref.message.message_id= 175
+ref.message.from.id= 400657466
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Kyivstar
+ref.message.from.username= phpprogramist
+ref.message.from.language_code= ru
+ref.message.chat.id= 400657466
+ref.message.chat.first_name= Алексей Kyivstar
+ref.message.chat.username= phpprogramist
+ref.message.chat.type= private
+ref.message.date= 1619925581
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=400657466">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Мужской
+<b>🧔 Возраст:</b> 35
+<b>👤 UserName: </b> @phpprogramist
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 06:19:54  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056291
+ref.message.message_id= 184
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619925593
+ref.message.text= 👥 Отправить свою анкету
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/DeAnon.php(33): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(176): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 06:19:54  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056291
+ref.message.message_id= 184
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619925593
+ref.message.text= 👥 Отправить свою анкету
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=400657466">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Мужской
+<b>🧔 Возраст:</b> 35
+<b>👤 UserName: </b> @phpprogramist
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/DeAnon.php(54): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(176): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 06:23:15  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056304
+ref.message.message_id= 212
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619925794
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 06:23:17  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056305
+ref.message.message_id= 213
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619925796
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 06:47:19  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056306
+ref.message.message_id= 214
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619927239
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 06:48:42  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056307
+ref.message.message_id= 215
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619927322
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 06:48:48  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056310
+ref.message.message_id= 220
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619927328
+ref.message.text= 👦 Найти парня
+
+
+[ref]
+ref.user_id= 310642607
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/SearchBoy.php(5): Telegram->getChatMember(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(166): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 06:48:52  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056312
+ref.message.message_id= 224
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619927332
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 06:55:13  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056315
+ref.message.message_id= 229
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619927713
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 06:55:14  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056316
+ref.message.message_id= 230
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619927714
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 06:55:15  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056317
+ref.message.message_id= 231
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619927715
+ref.message.text= 👧 Найти девушку
+
+
+[ref]
+ref.user_id= 310642607
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/SearchGirl.php(4): Telegram->getChatMember(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(167): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 06:55:28  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056320
+ref.message.message_id= 237
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619927728
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 07:02:02  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056321
+ref.message.message_id= 238
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619928122
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 07:02:04  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056322
+ref.message.message_id= 239
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619928124
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 07:02:08  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056324
+ref.message.message_id= 242
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619928128
+ref.message.text= 👧 Найти девушку
+
+
+[ref]
+ref.user_id= 310642607
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/SearchGirl.php(4): Telegram->getChatMember(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(167): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 07:02:15  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056328
+ref.message.message_id= 250
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619928135
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 11:42:21  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056329
+ref.message.message_id= 251
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619944940
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 11:42:31  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056331
+ref.message.message_id= 254
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619944951
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 16:16:12  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056335
+ref.message.message_id= 260
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619961372
+ref.message.text= 👦 Найти парня
+
+
+[ref]
+ref.user_id= 310642607
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/SearchBoy.php(5): Telegram->getChatMember(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(166): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 16:16:31  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056339
+ref.message.message_id= 268
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619961390
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 16:55:31  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056345
+ref.message.message_id= 278
+ref.message.from.id= 1681111384
+ref.message.from.is_bot= false
+ref.message.from.first_name= Asskold
+ref.message.from.username= monarkhov
+ref.message.from.language_code= ru
+ref.message.chat.id= 1681111384
+ref.message.chat.first_name= Asskold
+ref.message.chat.username= monarkhov
+ref.message.chat.type= private
+ref.message.date= 1619963731
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=1681111384">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Мужской
+<b>🧔 Возраст:</b> 41
+<b>👤 UserName: </b> @monarkhov
+<b>🌟 Рейтинг: </b> 0 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 18:46:13  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056347
+ref.message.message_id= 281
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619970372
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 18:46:13  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056348
+ref.message.message_id= 282
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619970372
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 18:46:14  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056349
+ref.message.message_id= 283
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619970372
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 19:50:34  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056351
+ref.message.message_id= 285
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619974234
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 21:01:36  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056354
+ref.message.message_id= 290
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619978496
+ref.message.text= 👦 Найти парня
+
+
+[ref]
+ref.user_id= 310642607
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/SearchBoy.php(5): Telegram->getChatMember(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(166): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 21:02:03  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056356
+ref.message.message_id= 294
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619978522
+ref.message.text= 👦 Найти парня
+
+
+[ref]
+ref.user_id= 310642607
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/SearchBoy.php(5): Telegram->getChatMember(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(166): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 21:02:50  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056357
+ref.my_chat_member.chat.id= 400657466
+ref.my_chat_member.chat.first_name= Алексей Kyivstar
+ref.my_chat_member.chat.username= phpprogramist
+ref.my_chat_member.chat.type= private
+ref.my_chat_member.from.id= 400657466
+ref.my_chat_member.from.is_bot= false
+ref.my_chat_member.from.first_name= Алексей Kyivstar
+ref.my_chat_member.from.username= phpprogramist
+ref.my_chat_member.from.language_code= ru
+ref.my_chat_member.date= 1619978569
+ref.my_chat_member.old_chat_member.user.id= 1701227618
+ref.my_chat_member.old_chat_member.user.is_bot= true
+ref.my_chat_member.old_chat_member.user.first_name= qwerty12345youtest12345_bot
+ref.my_chat_member.old_chat_member.user.username= youyouqwertyoutest12345_bot
+ref.my_chat_member.old_chat_member.status= member
+ref.my_chat_member.new_chat_member.user.id= 1701227618
+ref.my_chat_member.new_chat_member.user.is_bot= true
+ref.my_chat_member.new_chat_member.user.first_name= qwerty12345youtest12345_bot
+ref.my_chat_member.new_chat_member.user.username= youyouqwertyoutest12345_bot
+ref.my_chat_member.new_chat_member.status= kicked
+ref.my_chat_member.new_chat_member.until_date= 0
+
+
+[ref]
+ref.chat_id= 
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Мужской
+<b>🧔 Возраст:</b> 
+<b>👤 UserName: </b> Нету
+<b>🌟 Рейтинг: </b>  из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 21:02:58  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056358
+ref.my_chat_member.chat.id= 400657466
+ref.my_chat_member.chat.first_name= Алексей Kyivstar
+ref.my_chat_member.chat.username= phpprogramist
+ref.my_chat_member.chat.type= private
+ref.my_chat_member.from.id= 400657466
+ref.my_chat_member.from.is_bot= false
+ref.my_chat_member.from.first_name= Алексей Kyivstar
+ref.my_chat_member.from.username= phpprogramist
+ref.my_chat_member.from.language_code= ru
+ref.my_chat_member.date= 1619978577
+ref.my_chat_member.old_chat_member.user.id= 1701227618
+ref.my_chat_member.old_chat_member.user.is_bot= true
+ref.my_chat_member.old_chat_member.user.first_name= qwerty12345youtest12345_bot
+ref.my_chat_member.old_chat_member.user.username= youyouqwertyoutest12345_bot
+ref.my_chat_member.old_chat_member.status= kicked
+ref.my_chat_member.old_chat_member.until_date= 0
+ref.my_chat_member.new_chat_member.user.id= 1701227618
+ref.my_chat_member.new_chat_member.user.is_bot= true
+ref.my_chat_member.new_chat_member.user.first_name= qwerty12345youtest12345_bot
+ref.my_chat_member.new_chat_member.user.username= youyouqwertyoutest12345_bot
+ref.my_chat_member.new_chat_member.status= member
+
+
+[ref]
+ref.chat_id= 
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Мужской
+<b>🧔 Возраст:</b> 
+<b>👤 UserName: </b> Нету
+<b>🌟 Рейтинг: </b>  из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 21:03:09  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056360
+ref.message.message_id= 298
+ref.message.from.id= 400657466
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Kyivstar
+ref.message.from.username= phpprogramist
+ref.message.from.language_code= ru
+ref.message.chat.id= 400657466
+ref.message.chat.first_name= Алексей Kyivstar
+ref.message.chat.username= phpprogramist
+ref.message.chat.type= private
+ref.message.date= 1619978589
+ref.message.text= 👧 Найти девушку
+
+
+[ref]
+ref.user_id= 400657466
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/SearchGirl.php(4): Telegram->getChatMember(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(167): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 21:03:26  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056363
+ref.message.message_id= 306
+ref.message.from.id= 400657466
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Kyivstar
+ref.message.from.username= phpprogramist
+ref.message.from.language_code= ru
+ref.message.chat.id= 400657466
+ref.message.chat.first_name= Алексей Kyivstar
+ref.message.chat.username= phpprogramist
+ref.message.chat.type= private
+ref.message.date= 1619978605
+ref.message.text= 👥 Отправить свою анкету
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=400657466">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Мужской
+<b>🧔 Возраст:</b> 35
+<b>👤 UserName: </b> @phpprogramist
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/DeAnon.php(33): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(176): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 21:03:26  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056363
+ref.message.message_id= 306
+ref.message.from.id= 400657466
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Kyivstar
+ref.message.from.username= phpprogramist
+ref.message.from.language_code= ru
+ref.message.chat.id= 400657466
+ref.message.chat.first_name= Алексей Kyivstar
+ref.message.chat.username= phpprogramist
+ref.message.chat.type= private
+ref.message.date= 1619978605
+ref.message.text= 👥 Отправить свою анкету
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/DeAnon.php(54): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(176): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 21:05:53  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056365
+ref.message.message_id= 312
+ref.message.from.id= 400657466
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Kyivstar
+ref.message.from.username= phpprogramist
+ref.message.from.language_code= ru
+ref.message.chat.id= 400657466
+ref.message.chat.first_name= Алексей Kyivstar
+ref.message.chat.username= phpprogramist
+ref.message.chat.type= private
+ref.message.date= 1619978752
+ref.message.text= 👦 Найти парня
+
+
+[ref]
+ref.user_id= 400657466
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/SearchBoy.php(5): Telegram->getChatMember(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(166): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 21:07:27  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056379
+ref.message.message_id= 339
+ref.message.from.id= 400657466
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Kyivstar
+ref.message.from.username= phpprogramist
+ref.message.from.language_code= ru
+ref.message.chat.id= 400657466
+ref.message.chat.first_name= Алексей Kyivstar
+ref.message.chat.username= phpprogramist
+ref.message.chat.type= private
+ref.message.date= 1619978846
+ref.message.text= 👦 Найти парня
+
+
+[ref]
+ref.user_id= 400657466
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/SearchBoy.php(5): Telegram->getChatMember(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(166): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 21:07:47  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056381
+ref.message.message_id= 343
+ref.message.from.id= 400657466
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Kyivstar
+ref.message.from.username= phpprogramist
+ref.message.from.language_code= ru
+ref.message.chat.id= 400657466
+ref.message.chat.first_name= Алексей Kyivstar
+ref.message.chat.username= phpprogramist
+ref.message.chat.type= private
+ref.message.date= 1619978866
+ref.message.text= 👧 Найти девушку
+
+
+[ref]
+ref.user_id= 400657466
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/SearchGirl.php(4): Telegram->getChatMember(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(167): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 21:08:00  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056383
+ref.message.message_id= 346
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619978879
+ref.message.text= 👦 Найти парня
+
+
+[ref]
+ref.user_id= 310642607
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/SearchBoy.php(5): Telegram->getChatMember(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(166): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 21:15:56  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056394
+ref.message.message_id= 370
+ref.message.from.id= 853662126
+ref.message.from.is_bot= false
+ref.message.from.first_name= Сашка)))))
+ref.message.from.username= Sazonenko_Aleks
+ref.message.from.language_code= ru
+ref.message.chat.id= 853662126
+ref.message.chat.first_name= Сашка)))))
+ref.message.chat.username= Sazonenko_Aleks
+ref.message.chat.type= private
+ref.message.date= 1619979355
+ref.message.text= 👧 Найти девушку
+
+
+[ref]
+ref.user_id= 853662126
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/SearchGirl.php(4): Telegram->getChatMember(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(167): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 21:26:26  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056400
+ref.message.message_id= 382
+ref.message.from.id= 853662126
+ref.message.from.is_bot= false
+ref.message.from.first_name= Сашка)))))
+ref.message.from.username= Sazonenko_Aleks
+ref.message.from.language_code= ru
+ref.message.chat.id= 853662126
+ref.message.chat.first_name= Сашка)))))
+ref.message.chat.username= Sazonenko_Aleks
+ref.message.chat.type= private
+ref.message.date= 1619979985
+ref.message.text= 👧 Найти девушку
+
+
+[ref]
+ref.user_id= 853662126
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/SearchGirl.php(4): Telegram->getChatMember(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(167): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 21:27:53  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056402
+ref.my_chat_member.chat.id= 400657466
+ref.my_chat_member.chat.first_name= Алексей Kyivstar
+ref.my_chat_member.chat.username= phpprogramist
+ref.my_chat_member.chat.type= private
+ref.my_chat_member.from.id= 400657466
+ref.my_chat_member.from.is_bot= false
+ref.my_chat_member.from.first_name= Алексей Kyivstar
+ref.my_chat_member.from.username= phpprogramist
+ref.my_chat_member.from.language_code= ru
+ref.my_chat_member.date= 1619980072
+ref.my_chat_member.old_chat_member.user.id= 1701227618
+ref.my_chat_member.old_chat_member.user.is_bot= true
+ref.my_chat_member.old_chat_member.user.first_name= qwerty12345youtest12345_bot
+ref.my_chat_member.old_chat_member.user.username= youyouqwertyoutest12345_bot
+ref.my_chat_member.old_chat_member.status= member
+ref.my_chat_member.new_chat_member.user.id= 1701227618
+ref.my_chat_member.new_chat_member.user.is_bot= true
+ref.my_chat_member.new_chat_member.user.first_name= qwerty12345youtest12345_bot
+ref.my_chat_member.new_chat_member.user.username= youyouqwertyoutest12345_bot
+ref.my_chat_member.new_chat_member.status= kicked
+ref.my_chat_member.new_chat_member.until_date= 0
+
+
+[ref]
+ref.chat_id= 
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Мужской
+<b>🧔 Возраст:</b> 
+<b>👤 UserName: </b> Нету
+<b>🌟 Рейтинг: </b>  из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 21:40:48  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056403
+ref.message.message_id= 386
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619980847
+ref.message.text= 👦 Найти парня
+
+
+[ref]
+ref.user_id= 310642607
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/SearchBoy.php(5): Telegram->getChatMember(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(166): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 23:36:27  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: there is no photo in the request
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056405
+ref.message.message_id= 390
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619987786
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= 
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 23:38:30  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: there is no photo in the request
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056406
+ref.message.message_id= 391
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619987909
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= 
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 23:38:33  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056407
+ref.message.message_id= 392
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619987912
+ref.message.text= 👧 Найти девушку
+
+
+[ref]
+ref.user_id= 310642607
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/SearchGirl.php(4): Telegram->getChatMember(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(167): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 23:38:36  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: there is no photo in the request
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056409
+ref.message.message_id= 396
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619987916
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= 
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 23:38:38  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: there is no photo in the request
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056410
+ref.message.message_id= 397
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619987918
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= 
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 23:42:31  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat not found
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056411
+ref.message.message_id= 398
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619988150
+ref.message.text= 👧 Найти девушку
+
+
+[ref]
+ref.user_id= 310642607
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/SearchGirl.php(4): Telegram->getChatMember(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(167): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 23:42:34  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: there is no photo in the request
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056413
+ref.message.message_id= 402
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619988154
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= 
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 23:44:13  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: there is no photo in the request
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056414
+ref.message.message_id= 403
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619988252
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= 
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 23:45:42  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong remote file identifier specified: Wrong character in the string
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056415
+ref.message.message_id= 404
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619988341
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= Нету
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+
+============[Date]============
+[ 2021-05-02 23:51:40  Europe/Kiev ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: wrong file identifier/HTTP URL specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 306056423
+ref.message.message_id= 414
+ref.message.from.id= 310642607
+ref.message.from.is_bot= false
+ref.message.from.first_name= Алексей Vodafone
+ref.message.from.username= programist_php
+ref.message.from.language_code= ru
+ref.message.chat.id= 310642607
+ref.message.chat.first_name= Алексей Vodafone
+ref.message.chat.username= programist_php
+ref.message.chat.type= private
+ref.message.date= 1619988700
+ref.message.text= 📋 Моя анкета
+
+
+[ref]
+ref.photo= AgACAgIAAxkBAAMwYAII7a0nyyTl-Yd4lHMtPvOoOoYAAk6wMRsNhxBIfKqXQIkQfvBQ3RCeLgADAQADAgADeAAD4YgAAh4E
+ref.caption= <b><a href="tg://user?id=310642607">Анкета</a></b>
+
+<b>🏳️‍🌈 Страна:</b> Не указана
+<b>🔰 Город:</b> Не указан
+<b>👫 Пол:</b> Женский
+<b>🧔 Возраст:</b> 30
+<b>👤 UserName: </b> @programist_php
+<b>🌟 Рейтинг: </b> 5 из 5
+ref.parse_mode= HTML
+ref.reply_markup= {"inline_keyboard":[[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0444\u043e\u0442\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f","callback_data":"edit_profile\/photo"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0443","callback_data":"edit_profile\/country"}],[{"text":"\u270f\ufe0f \u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c \u0433\u043e\u0440\u043e\u0434","callback_data":"edit_profile\/city"}]]}
+
+
+============[Trace]===========
+#0 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/mstudia/nashmed.com.ua/bot/bot/TelegramAPI/Telegram.php(296): Telegram->endpoint('sendPhoto', Array)
+#3 /home/mstudia/nashmed.com.ua/bot/bot/App/Components/message/MyProfile.php(34): Telegram->sendPhoto(Array)
+#4 /home/mstudia/nashmed.com.ua/bot/bot/bot.php(169): require_once('/home/mstudia/n...')
+#5 {main}
+

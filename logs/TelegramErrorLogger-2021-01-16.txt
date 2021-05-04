@@ -1,0 +1,1187 @@
+============[Date]============
+[ 2021-01-16 00:25:13  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.chat_id= 
+ref.text= <b>📊 Статистика проекта</b>
+
+👤 Пользователей: <b>669</b>
+🧿 Пользователей online: <b>126</b>
+👥 Новых пользователей: <b>0</b>
+
+📆 Бот работает: <b>122</b> дня(ей)
+ref.reply_markup= {"keyboard":[[{"text":"","request_contact":false,"request_location":false}],[{"text":"","request_contact":false,"request_location":false}],[{"text":"","request_contact":false,"request_location":false}],[{"text":"","request_contact":false,"request_location":false}]],"one_time_keyboard":false,"resize_keyboard":true,"selective":true}
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Modules/Messages/Messages.php(57): Telegram->sendMessage(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/Statistic.php(20): Messages->replyHTML('<b>\xF0\x9F\x93\x8A \xD0\xA1\xD1\x82\xD0\xB0\xD1...', '{"keyboard":[[{...')
+#5 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(163): require_once('/home/a0505508/...')
+#6 {main}
+
+============[Date]============
+[ 2021-01-16 00:25:54  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: chat_id is empty
+=========[Sent Data]==========
+[ref]
+ref.chat_id= 
+ref.text= <b>📊 Статистика проекта</b>
+
+👤 Пользователей: <b>669</b>
+🧿 Пользователей online: <b>126</b>
+👥 Новых пользователей: <b>0</b>
+
+📆 Бот работает: <b>122</b> дня(ей)
+ref.reply_markup= {"keyboard":[[{"text":"","request_contact":false,"request_location":false}],[{"text":"","request_contact":false,"request_location":false}],[{"text":"","request_contact":false,"request_location":false}],[{"text":"","request_contact":false,"request_location":false}]],"one_time_keyboard":false,"resize_keyboard":true,"selective":true}
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Modules/Messages/Messages.php(57): Telegram->sendMessage(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/Statistic.php(20): Messages->replyHTML('<b>\xF0\x9F\x93\x8A \xD0\xA1\xD1\x82\xD0\xB0\xD1...', '{"keyboard":[[{...')
+#5 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(164): require_once('/home/a0505508/...')
+#6 {main}
+
+============[Date]============
+[ 2021-01-16 00:25:56  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 53984918
+ref.message.message_id= 42
+ref.message.from.id= 394296212
+ref.message.from.is_bot= false
+ref.message.from.first_name= Alexander
+ref.message.from.last_name= Php`ишник
+ref.message.from.username= alex1987g
+ref.message.from.language_code= ru
+ref.message.chat.id= 394296212
+ref.message.chat.first_name= Alexander
+ref.message.chat.last_name= Php`ишник
+ref.message.chat.username= alex1987g
+ref.message.chat.type= private
+ref.message.date= 1610745956
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= 
+ref.reply_markup= {"inline_keyboard":[[{"text":"","callback_data":"set_gender\/boy"}],[{"text":"","callback_data":"set_gender\/girl"}]]}
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Modules/Messages/Messages.php(57): Telegram->sendMessage(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/start.php(19): Messages->replyHTML(NULL, '{"inline_keyboa...')
+#5 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(162): require_once('/home/a0505508/...')
+#6 {main}
+
+============[Date]============
+[ 2021-01-16 00:26:06  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 53984919
+ref.message.message_id= 44
+ref.message.from.id= 394296212
+ref.message.from.is_bot= false
+ref.message.from.first_name= Alexander
+ref.message.from.last_name= Php`ишник
+ref.message.from.username= alex1987g
+ref.message.from.language_code= ru
+ref.message.chat.id= 394296212
+ref.message.chat.first_name= Alexander
+ref.message.chat.last_name= Php`ишник
+ref.message.chat.username= alex1987g
+ref.message.chat.type= private
+ref.message.date= 1610745965
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= 
+ref.reply_markup= {"inline_keyboard":[[{"text":"","callback_data":"set_gender\/boy"}],[{"text":"","callback_data":"set_gender\/girl"}]]}
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Modules/Messages/Messages.php(57): Telegram->sendMessage(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/start.php(19): Messages->replyHTML(NULL, '{"inline_keyboa...')
+#5 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(162): require_once('/home/a0505508/...')
+#6 {main}
+
+============[Date]============
+[ 2021-01-16 00:26:50  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 53984920
+ref.message.message_id= 46
+ref.message.from.id= 394296212
+ref.message.from.is_bot= false
+ref.message.from.first_name= Alexander
+ref.message.from.last_name= Php`ишник
+ref.message.from.username= alex1987g
+ref.message.from.language_code= ru
+ref.message.chat.id= 394296212
+ref.message.chat.first_name= Alexander
+ref.message.chat.last_name= Php`ишник
+ref.message.chat.username= alex1987g
+ref.message.chat.type= private
+ref.message.date= 1610746009
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= 
+ref.reply_markup= {"inline_keyboard":[[{"text":"","callback_data":"set_gender\/boy"}],[{"text":"","callback_data":"set_gender\/girl"}]]}
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Modules/Messages/Messages.php(57): Telegram->sendMessage(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/start.php(19): Messages->replyHTML(NULL, '{"inline_keyboa...')
+#5 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(162): require_once('/home/a0505508/...')
+#6 {main}
+
+============[Date]============
+[ 2021-01-16 00:29:27  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 53984923
+ref.message.message_id= 54
+ref.message.from.id= 394296212
+ref.message.from.is_bot= false
+ref.message.from.first_name= Alexander
+ref.message.from.last_name= Php`ишник
+ref.message.from.username= alex1987g
+ref.message.from.language_code= ru
+ref.message.chat.id= 394296212
+ref.message.chat.first_name= Alexander
+ref.message.chat.last_name= Php`ишник
+ref.message.chat.username= alex1987g
+ref.message.chat.type= private
+ref.message.date= 1610746167
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= 
+ref.reply_markup= {"inline_keyboard":[[{"text":"","callback_data":"set_gender\/boy"}],[{"text":"","callback_data":"set_gender\/girl"}]]}
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Modules/Messages/Messages.php(57): Telegram->sendMessage(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/start.php(19): Messages->replyHTML(NULL, '{"inline_keyboa...')
+#5 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(162): require_once('/home/a0505508/...')
+#6 {main}
+
+============[Date]============
+[ 2021-01-16 00:30:18  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 53984925
+ref.message.message_id= 57
+ref.message.from.id= 394296212
+ref.message.from.is_bot= false
+ref.message.from.first_name= Alexander
+ref.message.from.last_name= Php`ишник
+ref.message.from.username= alex1987g
+ref.message.from.language_code= ru
+ref.message.chat.id= 394296212
+ref.message.chat.first_name= Alexander
+ref.message.chat.last_name= Php`ишник
+ref.message.chat.username= alex1987g
+ref.message.chat.type= private
+ref.message.date= 1610746218
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= 
+ref.reply_markup= {"inline_keyboard":[[{"text":"","callback_data":"set_gender\/boy"}],[{"text":"","callback_data":"set_gender\/girl"}]]}
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Modules/Messages/Messages.php(57): Telegram->sendMessage(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/start.php(19): Messages->replyHTML(NULL, '{"inline_keyboa...')
+#5 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(162): require_once('/home/a0505508/...')
+#6 {main}
+
+============[Date]============
+[ 2021-01-16 00:30:20  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 53984926
+ref.message.message_id= 59
+ref.message.from.id= 394296212
+ref.message.from.is_bot= false
+ref.message.from.first_name= Alexander
+ref.message.from.last_name= Php`ишник
+ref.message.from.username= alex1987g
+ref.message.from.language_code= ru
+ref.message.chat.id= 394296212
+ref.message.chat.first_name= Alexander
+ref.message.chat.last_name= Php`ишник
+ref.message.chat.username= alex1987g
+ref.message.chat.type= private
+ref.message.date= 1610746219
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= 
+ref.reply_markup= {"inline_keyboard":[[{"text":"","callback_data":"set_gender\/boy"}],[{"text":"","callback_data":"set_gender\/girl"}]]}
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Modules/Messages/Messages.php(57): Telegram->sendMessage(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/start.php(19): Messages->replyHTML(NULL, '{"inline_keyboa...')
+#5 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(162): require_once('/home/a0505508/...')
+#6 {main}
+
+============[Date]============
+[ 2021-01-16 00:30:51  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 53984927
+ref.message.message_id= 61
+ref.message.from.id= 394296212
+ref.message.from.is_bot= false
+ref.message.from.first_name= Alexander
+ref.message.from.last_name= Php`ишник
+ref.message.from.username= alex1987g
+ref.message.from.language_code= ru
+ref.message.chat.id= 394296212
+ref.message.chat.first_name= Alexander
+ref.message.chat.last_name= Php`ишник
+ref.message.chat.username= alex1987g
+ref.message.chat.type= private
+ref.message.date= 1610746250
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= 
+ref.reply_markup= {"inline_keyboard":[[{"text":"","callback_data":"set_gender\/boy"}],[{"text":"","callback_data":"set_gender\/girl"}]]}
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Modules/Messages/Messages.php(57): Telegram->sendMessage(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/start.php(19): Messages->replyHTML(NULL, '{"inline_keyboa...')
+#5 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(162): require_once('/home/a0505508/...')
+#6 {main}
+
+============[Date]============
+[ 2021-01-16 00:30:53  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 53984928
+ref.message.message_id= 63
+ref.message.from.id= 394296212
+ref.message.from.is_bot= false
+ref.message.from.first_name= Alexander
+ref.message.from.last_name= Php`ишник
+ref.message.from.username= alex1987g
+ref.message.from.language_code= ru
+ref.message.chat.id= 394296212
+ref.message.chat.first_name= Alexander
+ref.message.chat.last_name= Php`ишник
+ref.message.chat.username= alex1987g
+ref.message.chat.type= private
+ref.message.date= 1610746252
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= 
+ref.reply_markup= {"inline_keyboard":[[{"text":"","callback_data":"set_gender\/boy"}],[{"text":"","callback_data":"set_gender\/girl"}]]}
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Modules/Messages/Messages.php(57): Telegram->sendMessage(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/start.php(19): Messages->replyHTML(NULL, '{"inline_keyboa...')
+#5 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(162): require_once('/home/a0505508/...')
+#6 {main}
+
+============[Date]============
+[ 2021-01-16 00:30:55  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 53984929
+ref.message.message_id= 65
+ref.message.from.id= 394296212
+ref.message.from.is_bot= false
+ref.message.from.first_name= Alexander
+ref.message.from.last_name= Php`ишник
+ref.message.from.username= alex1987g
+ref.message.from.language_code= ru
+ref.message.chat.id= 394296212
+ref.message.chat.first_name= Alexander
+ref.message.chat.last_name= Php`ишник
+ref.message.chat.username= alex1987g
+ref.message.chat.type= private
+ref.message.date= 1610746254
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= 
+ref.reply_markup= {"inline_keyboard":[[{"text":"","callback_data":"set_gender\/boy"}],[{"text":"","callback_data":"set_gender\/girl"}]]}
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Modules/Messages/Messages.php(57): Telegram->sendMessage(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/start.php(19): Messages->replyHTML(NULL, '{"inline_keyboa...')
+#5 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(162): require_once('/home/a0505508/...')
+#6 {main}
+
+============[Date]============
+[ 2021-01-16 00:30:56  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 53984930
+ref.message.message_id= 67
+ref.message.from.id= 394296212
+ref.message.from.is_bot= false
+ref.message.from.first_name= Alexander
+ref.message.from.last_name= Php`ишник
+ref.message.from.username= alex1987g
+ref.message.from.language_code= ru
+ref.message.chat.id= 394296212
+ref.message.chat.first_name= Alexander
+ref.message.chat.last_name= Php`ишник
+ref.message.chat.username= alex1987g
+ref.message.chat.type= private
+ref.message.date= 1610746255
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= 
+ref.reply_markup= {"inline_keyboard":[[{"text":"","callback_data":"set_gender\/boy"}],[{"text":"","callback_data":"set_gender\/girl"}]]}
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Modules/Messages/Messages.php(57): Telegram->sendMessage(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/start.php(19): Messages->replyHTML(NULL, '{"inline_keyboa...')
+#5 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(162): require_once('/home/a0505508/...')
+#6 {main}
+
+============[Date]============
+[ 2021-01-16 00:30:56  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 53984931
+ref.message.message_id= 69
+ref.message.from.id= 394296212
+ref.message.from.is_bot= false
+ref.message.from.first_name= Alexander
+ref.message.from.last_name= Php`ишник
+ref.message.from.username= alex1987g
+ref.message.from.language_code= ru
+ref.message.chat.id= 394296212
+ref.message.chat.first_name= Alexander
+ref.message.chat.last_name= Php`ишник
+ref.message.chat.username= alex1987g
+ref.message.chat.type= private
+ref.message.date= 1610746256
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= 
+ref.reply_markup= {"inline_keyboard":[[{"text":"","callback_data":"set_gender\/boy"}],[{"text":"","callback_data":"set_gender\/girl"}]]}
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Modules/Messages/Messages.php(57): Telegram->sendMessage(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/start.php(19): Messages->replyHTML(NULL, '{"inline_keyboa...')
+#5 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(162): require_once('/home/a0505508/...')
+#6 {main}
+
+============[Date]============
+[ 2021-01-16 00:30:57  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 53984932
+ref.message.message_id= 71
+ref.message.from.id= 394296212
+ref.message.from.is_bot= false
+ref.message.from.first_name= Alexander
+ref.message.from.last_name= Php`ишник
+ref.message.from.username= alex1987g
+ref.message.from.language_code= ru
+ref.message.chat.id= 394296212
+ref.message.chat.first_name= Alexander
+ref.message.chat.last_name= Php`ишник
+ref.message.chat.username= alex1987g
+ref.message.chat.type= private
+ref.message.date= 1610746257
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= 
+ref.reply_markup= {"inline_keyboard":[[{"text":"","callback_data":"set_gender\/boy"}],[{"text":"","callback_data":"set_gender\/girl"}]]}
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Modules/Messages/Messages.php(57): Telegram->sendMessage(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/start.php(19): Messages->replyHTML(NULL, '{"inline_keyboa...')
+#5 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(162): require_once('/home/a0505508/...')
+#6 {main}
+
+============[Date]============
+[ 2021-01-16 00:30:58  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 53984933
+ref.message.message_id= 73
+ref.message.from.id= 394296212
+ref.message.from.is_bot= false
+ref.message.from.first_name= Alexander
+ref.message.from.last_name= Php`ишник
+ref.message.from.username= alex1987g
+ref.message.from.language_code= ru
+ref.message.chat.id= 394296212
+ref.message.chat.first_name= Alexander
+ref.message.chat.last_name= Php`ишник
+ref.message.chat.username= alex1987g
+ref.message.chat.type= private
+ref.message.date= 1610746257
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= 
+ref.reply_markup= {"inline_keyboard":[[{"text":"","callback_data":"set_gender\/boy"}],[{"text":"","callback_data":"set_gender\/girl"}]]}
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Modules/Messages/Messages.php(57): Telegram->sendMessage(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/start.php(19): Messages->replyHTML(NULL, '{"inline_keyboa...')
+#5 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(162): require_once('/home/a0505508/...')
+#6 {main}
+
+============[Date]============
+[ 2021-01-16 00:30:59  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: message text is empty
+=========[Sent Data]==========
+[ref]
+ref.update_id= 53984934
+ref.message.message_id= 75
+ref.message.from.id= 394296212
+ref.message.from.is_bot= false
+ref.message.from.first_name= Alexander
+ref.message.from.last_name= Php`ишник
+ref.message.from.username= alex1987g
+ref.message.from.language_code= ru
+ref.message.chat.id= 394296212
+ref.message.chat.first_name= Alexander
+ref.message.chat.last_name= Php`ишник
+ref.message.chat.username= alex1987g
+ref.message.chat.type= private
+ref.message.date= 1610746258
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= 
+ref.reply_markup= {"inline_keyboard":[[{"text":"","callback_data":"set_gender\/boy"}],[{"text":"","callback_data":"set_gender\/girl"}]]}
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Modules/Messages/Messages.php(57): Telegram->sendMessage(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/start.php(19): Messages->replyHTML(NULL, '{"inline_keyboa...')
+#5 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(162): require_once('/home/a0505508/...')
+#6 {main}
+
+============[Date]============
+[ 2021-01-16 00:34:11  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: invalid user_id specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 53984939
+ref.message.message_id= 84
+ref.message.from.id= 394296212
+ref.message.from.is_bot= false
+ref.message.from.first_name= Alexander
+ref.message.from.last_name= Php`ишник
+ref.message.from.username= alex1987g
+ref.message.from.language_code= ru
+ref.message.chat.id= 394296212
+ref.message.chat.first_name= Alexander
+ref.message.chat.last_name= Php`ишник
+ref.message.chat.username= alex1987g
+ref.message.chat.type= private
+ref.message.date= 1610746451
+ref.message.text= 👦 Найти парня
+
+
+[ref]
+ref.user_id= 
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/SearchBoy.php(5): Telegram->getChatMember(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(166): require_once('/home/a0505508/...')
+#5 {main}
+
+============[Date]============
+[ 2021-01-16 00:34:14  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: invalid user_id specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 53984941
+ref.message.message_id= 88
+ref.message.from.id= 394296212
+ref.message.from.is_bot= false
+ref.message.from.first_name= Alexander
+ref.message.from.last_name= Php`ишник
+ref.message.from.username= alex1987g
+ref.message.from.language_code= ru
+ref.message.chat.id= 394296212
+ref.message.chat.first_name= Alexander
+ref.message.chat.last_name= Php`ишник
+ref.message.chat.username= alex1987g
+ref.message.chat.type= private
+ref.message.date= 1610746454
+ref.message.text= 👧 Найти девушку
+
+
+[ref]
+ref.user_id= 
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/SearchGirl.php(4): Telegram->getChatMember(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(167): require_once('/home/a0505508/...')
+#5 {main}
+
+============[Date]============
+[ 2021-01-16 00:36:28  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: invalid user_id specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 53984944
+ref.message.message_id= 94
+ref.message.from.id= 394296212
+ref.message.from.is_bot= false
+ref.message.from.first_name= Alexander
+ref.message.from.last_name= Php`ишник
+ref.message.from.username= alex1987g
+ref.message.from.language_code= ru
+ref.message.chat.id= 394296212
+ref.message.chat.first_name= Alexander
+ref.message.chat.last_name= Php`ишник
+ref.message.chat.username= alex1987g
+ref.message.chat.type= private
+ref.message.date= 1610746588
+ref.message.text= 👧 Найти девушку
+
+
+[ref]
+ref.user_id= 
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/SearchGirl.php(4): Telegram->getChatMember(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(167): require_once('/home/a0505508/...')
+#5 {main}
+
+============[Date]============
+[ 2021-01-16 00:36:31  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: invalid user_id specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 53984946
+ref.message.message_id= 98
+ref.message.from.id= 394296212
+ref.message.from.is_bot= false
+ref.message.from.first_name= Alexander
+ref.message.from.last_name= Php`ишник
+ref.message.from.username= alex1987g
+ref.message.from.language_code= ru
+ref.message.chat.id= 394296212
+ref.message.chat.first_name= Alexander
+ref.message.chat.last_name= Php`ишник
+ref.message.chat.username= alex1987g
+ref.message.chat.type= private
+ref.message.date= 1610746591
+ref.message.text= 👧 Найти девушку
+
+
+[ref]
+ref.user_id= 
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/SearchGirl.php(4): Telegram->getChatMember(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(167): require_once('/home/a0505508/...')
+#5 {main}
+
+============[Date]============
+[ 2021-01-16 00:36:33  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: invalid user_id specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 53984948
+ref.message.message_id= 102
+ref.message.from.id= 394296212
+ref.message.from.is_bot= false
+ref.message.from.first_name= Alexander
+ref.message.from.last_name= Php`ишник
+ref.message.from.username= alex1987g
+ref.message.from.language_code= ru
+ref.message.chat.id= 394296212
+ref.message.chat.first_name= Alexander
+ref.message.chat.last_name= Php`ишник
+ref.message.chat.username= alex1987g
+ref.message.chat.type= private
+ref.message.date= 1610746593
+ref.message.text= 👦 Найти парня
+
+
+[ref]
+ref.user_id= 
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/SearchBoy.php(5): Telegram->getChatMember(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(166): require_once('/home/a0505508/...')
+#5 {main}
+
+============[Date]============
+[ 2021-01-16 00:36:38  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: invalid user_id specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 53984950
+ref.message.message_id= 106
+ref.message.from.id= 394296212
+ref.message.from.is_bot= false
+ref.message.from.first_name= Alexander
+ref.message.from.last_name= Php`ишник
+ref.message.from.username= alex1987g
+ref.message.from.language_code= ru
+ref.message.chat.id= 394296212
+ref.message.chat.first_name= Alexander
+ref.message.chat.last_name= Php`ишник
+ref.message.chat.username= alex1987g
+ref.message.chat.type= private
+ref.message.date= 1610746598
+ref.message.text= 👧 Найти девушку
+
+
+[ref]
+ref.user_id= 
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/SearchGirl.php(4): Telegram->getChatMember(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(167): require_once('/home/a0505508/...')
+#5 {main}
+
+============[Date]============
+[ 2021-01-16 00:38:18  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: invalid user_id specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 53984959
+ref.message.message_id= 124
+ref.message.from.id= 394296212
+ref.message.from.is_bot= false
+ref.message.from.first_name= Alexander
+ref.message.from.last_name= Php`ишник
+ref.message.from.username= alex1987g
+ref.message.from.language_code= ru
+ref.message.chat.id= 394296212
+ref.message.chat.first_name= Alexander
+ref.message.chat.last_name= Php`ишник
+ref.message.chat.username= alex1987g
+ref.message.chat.type= private
+ref.message.date= 1610746697
+ref.message.text= 👧 Найти девушку
+
+
+[ref]
+ref.user_id= 
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/SearchGirl.php(4): Telegram->getChatMember(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(167): require_once('/home/a0505508/...')
+#5 {main}
+
+============[Date]============
+[ 2021-01-16 00:38:20  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: invalid user_id specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 53984961
+ref.message.message_id= 128
+ref.message.from.id= 394296212
+ref.message.from.is_bot= false
+ref.message.from.first_name= Alexander
+ref.message.from.last_name= Php`ишник
+ref.message.from.username= alex1987g
+ref.message.from.language_code= ru
+ref.message.chat.id= 394296212
+ref.message.chat.first_name= Alexander
+ref.message.chat.last_name= Php`ишник
+ref.message.chat.username= alex1987g
+ref.message.chat.type= private
+ref.message.date= 1610746700
+ref.message.text= 👦 Найти парня
+
+
+[ref]
+ref.user_id= 
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/SearchBoy.php(5): Telegram->getChatMember(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(166): require_once('/home/a0505508/...')
+#5 {main}
+
+============[Date]============
+[ 2021-01-16 00:40:39  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: invalid user_id specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 53984963
+ref.message.message_id= 132
+ref.message.from.id= 394296212
+ref.message.from.is_bot= false
+ref.message.from.first_name= Alexander
+ref.message.from.last_name= Php`ишник
+ref.message.from.username= alex1987g
+ref.message.from.language_code= ru
+ref.message.chat.id= 394296212
+ref.message.chat.first_name= Alexander
+ref.message.chat.last_name= Php`ишник
+ref.message.chat.username= alex1987g
+ref.message.chat.type= private
+ref.message.date= 1610746838
+ref.message.text= 👧 Найти девушку
+
+
+[ref]
+ref.user_id= 
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/SearchGirl.php(4): Telegram->getChatMember(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(167): require_once('/home/a0505508/...')
+#5 {main}
+
+============[Date]============
+[ 2021-01-16 00:40:41  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: invalid user_id specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 53984965
+ref.message.message_id= 136
+ref.message.from.id= 394296212
+ref.message.from.is_bot= false
+ref.message.from.first_name= Alexander
+ref.message.from.last_name= Php`ишник
+ref.message.from.username= alex1987g
+ref.message.from.language_code= ru
+ref.message.chat.id= 394296212
+ref.message.chat.first_name= Alexander
+ref.message.chat.last_name= Php`ишник
+ref.message.chat.username= alex1987g
+ref.message.chat.type= private
+ref.message.date= 1610746841
+ref.message.text= 👦 Найти парня
+
+
+[ref]
+ref.user_id= 
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/SearchBoy.php(5): Telegram->getChatMember(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(166): require_once('/home/a0505508/...')
+#5 {main}
+
+============[Date]============
+[ 2021-01-16 00:41:34  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: invalid user_id specified
+=========[Sent Data]==========
+[ref]
+ref.update_id= 53984967
+ref.message.message_id= 140
+ref.message.from.id= 394296212
+ref.message.from.is_bot= false
+ref.message.from.first_name= Alexander
+ref.message.from.last_name= Php`ишник
+ref.message.from.username= alex1987g
+ref.message.from.language_code= ru
+ref.message.chat.id= 394296212
+ref.message.chat.first_name= Alexander
+ref.message.chat.last_name= Php`ишник
+ref.message.chat.username= alex1987g
+ref.message.chat.type= private
+ref.message.date= 1610746894
+ref.message.text= 👧 Найти девушку
+
+
+[ref]
+ref.user_id= 
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(1364): Telegram->endpoint('getChatMember', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/SearchGirl.php(4): Telegram->getChatMember(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(167): require_once('/home/a0505508/...')
+#5 {main}
+
+============[Date]============
+[ 2021-01-16 00:41:53  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse entities: Can't find end tag corresponding to start tag b
+=========[Sent Data]==========
+[ref]
+ref.update_id= 53984969
+ref.message.message_id= 145
+ref.message.from.id= 394296212
+ref.message.from.is_bot= false
+ref.message.from.first_name= Alexander
+ref.message.from.last_name= Php`ишник
+ref.message.from.username= alex1987g
+ref.message.from.language_code= ru
+ref.message.chat.id= 394296212
+ref.message.chat.first_name= Alexander
+ref.message.chat.last_name= Php`ишник
+ref.message.chat.username= alex1987g
+ref.message.chat.type= private
+ref.message.date= 1610746913
+ref.message.text= 👧 Найти девушку
+
+
+[ref]
+ref.text= <b>❌ Для того, чтобы воспользоваться этой функцией нужно подписаться на канал @anonymruchannel
+ref.reply_markup= 
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Modules/Messages/Messages.php(57): Telegram->sendMessage(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/SearchGirl.php(12): Messages->replyHTML('<b>\xE2\x9D\x8C \xD0\x94\xD0\xBB\xD1\x8F \xD1...')
+#5 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(167): require_once('/home/a0505508/...')
+#6 {main}
+
+============[Date]============
+[ 2021-01-16 00:41:55  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse entities: Can't find end tag corresponding to start tag b
+=========[Sent Data]==========
+[ref]
+ref.update_id= 53984970
+ref.message.message_id= 146
+ref.message.from.id= 394296212
+ref.message.from.is_bot= false
+ref.message.from.first_name= Alexander
+ref.message.from.last_name= Php`ишник
+ref.message.from.username= alex1987g
+ref.message.from.language_code= ru
+ref.message.chat.id= 394296212
+ref.message.chat.first_name= Alexander
+ref.message.chat.last_name= Php`ишник
+ref.message.chat.username= alex1987g
+ref.message.chat.type= private
+ref.message.date= 1610746915
+ref.message.text= 👧 Найти девушку
+
+
+[ref]
+ref.text= <b>❌ Для того, чтобы воспользоваться этой функцией нужно подписаться на канал @anonymruchannel
+ref.reply_markup= 
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Modules/Messages/Messages.php(57): Telegram->sendMessage(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/SearchGirl.php(12): Messages->replyHTML('<b>\xE2\x9D\x8C \xD0\x94\xD0\xBB\xD1\x8F \xD1...')
+#5 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(167): require_once('/home/a0505508/...')
+#6 {main}
+
+============[Date]============
+[ 2021-01-16 00:42:12  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse entities: Can't find end tag corresponding to start tag b
+=========[Sent Data]==========
+[ref]
+ref.update_id= 53984971
+ref.message.message_id= 147
+ref.message.from.id= 394296212
+ref.message.from.is_bot= false
+ref.message.from.first_name= Alexander
+ref.message.from.last_name= Php`ишник
+ref.message.from.username= alex1987g
+ref.message.from.language_code= ru
+ref.message.chat.id= 394296212
+ref.message.chat.first_name= Alexander
+ref.message.chat.last_name= Php`ишник
+ref.message.chat.username= alex1987g
+ref.message.chat.type= private
+ref.message.date= 1610746932
+ref.message.text= 👦 Найти парня
+
+
+[ref]
+ref.text= <b>❌ Для того, чтобы воспользоваться этой функцией нужно подписаться на канал @anonymruchannel
+ref.reply_markup= 
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(3206): TelegramErrorLogger::log(Array, Array)
+#1 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(111): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/a0505508/domains/sdfadsf.ru/public_html/bot/TelegramAPI/Telegram.php(196): Telegram->endpoint('sendMessage', Array)
+#3 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Modules/Messages/Messages.php(57): Telegram->sendMessage(Array)
+#4 /home/a0505508/domains/sdfadsf.ru/public_html/bot/App/Components/message/SearchBoy.php(11): Messages->replyHTML('<b>\xE2\x9D\x8C \xD0\x94\xD0\xBB\xD1\x8F \xD1...')
+#5 /home/a0505508/domains/sdfadsf.ru/public_html/bot/bot.php(166): require_once('/home/a0505508/...')
+#6 {main}
+
